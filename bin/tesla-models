@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/tesla_models.rb'
+require "bundler/setup"
+
+
+TeslaModels::CLI.new.call
